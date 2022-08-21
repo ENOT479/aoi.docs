@@ -1,5 +1,5 @@
 # $year
-desc
+возращяет год
 ### Использование
 ```php
 $yearnull
@@ -11,7 +11,7 @@ $yearnull
 bot.command({
   name: '$year',
   code: `
-$yearnull`
-// Возвращает: ...
+$year`
+// Возвращает: 2022
 })
 ```
