@@ -1,5 +1,5 @@
 # $writeFile
-desc
+записывает определенную информацию в файл
 ### Использование
 ```php
 $writeFile[file;text;encode?]
@@ -9,8 +9,8 @@ $writeFile[file;text;encode?]
 
 | Опция | Описание | Тип | Обязательно |
 |--------|-------------|------|----------|
-| file |  |  | Да | 
-| text |  |  | Да | 
+| file | файл в который будет записана информация |  | Да | 
+| text | текст который будет записан в файл |  | Да | 
 | encode |  |  | Нет |
 ## Пример(ы)
 
@@ -18,7 +18,7 @@ $writeFile[file;text;encode?]
 bot.command({
   name: '$writeFile',
   code: `
-$writeFile[file;text;encode?]`
-// Возвращает: ...
+$writeFile[file.txt;weredokGang]`
+// Возвращает: WeredokGang
 })
 ```
